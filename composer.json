@@ -1,0 +1,45 @@
+{
+    "name": "vilbur/dev-template",
+    "type": "library",
+    "description": "DevTemplate for development of packages for Laravel",
+    "keywords": [
+        "vilbur",
+        "DevTemplate"
+    ],
+    "homepage": "https://github.com/vilbur/laravel-package-dev-template",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":vilbur",
+            "email": "cerny.vil@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Vilbur\\DevTemplate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vilbur\\DevTemplate\\": "tests/"
+        }
+    },
+    "extra": {
+		"laravel": {
+            "providers": [
+                "Vilbur\\DevTemplate\\Providers\\DevTemplateServiceProvider"
+            ],
+            "aliases": {
+				"DevTemplate":"Vilbur\\DevTemplate\\DevTemplate"
+			}
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
