@@ -34,10 +34,10 @@ class DevTemplateServiceProvider extends ServiceProvider
 			__DIR__.'/../../publish/database'	=> $this->app->databasePath(),
 
 			/* ASSETS JS */
-			__DIR__.'/../../publish/resources/assets/js'	=> resource_path("assets/js/dev-template"), // DISABLED PUBLISHING ON PACKAGE DEVELOPMENT
+			__DIR__.'/../../publish/resources/assets/js'	=> resource_path("assets/js/dev-template"),
 
 			/* ASSETS SASS */
-			__DIR__.'/../../publish/resources/assets/sass'	=> resource_path("assets/sass/dev-template"), // DISABLED PUBLISHING ON PACKAGE DEVELOPMENT
+			__DIR__.'/../../publish/resources/assets/sass'	=> resource_path("assets/sass/dev-template"),
 
 		], 'config');
 
