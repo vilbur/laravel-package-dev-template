@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Komodo Project File - DO NOT EDIT -->
-<project id="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" kpf_version="5" name="package-dev-template.komodoproject">
-<folder id="7acbd179-88cf-4f67-a535-41cbc72b46b2" idref="2d309246-b7dc-452d-8649-e27a381655af" name="Assets">
+<project id="cc7c8090-59e6-4bff-9ac2-eeb4ae058aba" kpf_version="5" name="package-dev-template.komodoproject">
+<folder id="298a41a1-42d2-4e38-858f-ad6df9fb7ef6" idref="fe59b1cd-438c-492b-acb9-bdfaea6fad51" name="Assets">
 </folder>
-<livefolder id="5a11470a-2a90-42a7-9895-27a5223147a7" idref="3624417b-bee4-48ad-b9f9-cca2cd9e8ca9" name="sass" url="../../../resources/assets/sass/dev-template">
+<livefolder id="2fa1db85-2ae1-4b68-9620-4598162833e0" idref="fe59b1cd-438c-492b-acb9-bdfaea6fad51" name="App" url="../../../">
 </livefolder>
-<livefolder id="b7f35395-e69f-4aad-978b-c6be5b4bf36f" idref="3624417b-bee4-48ad-b9f9-cca2cd9e8ca9" name="js" url="../../../resources/assets/js/dev-template">
+<livefolder id="4f360931-8ad2-4737-9482-509df17e43bb" idref="3ae86ddb-0780-4727-b985-f4c3caffce3f" name="sass" url="file:///C:/wamp64/www/portfolio/packages/vilbur/portfolio/publish/resources/assets/sass/">
 </livefolder>
-<livefolder id="763dd8a0-63ae-4af6-b102-5d99a6318bb1" idref="7acbd179-88cf-4f67-a535-41cbc72b46b2" name="sass" url="../../../resources/assets/sass/">
+<livefolder id="879f20c7-6909-4c96-a8a9-44225aa77cc0" idref="3ae86ddb-0780-4727-b985-f4c3caffce3f" name="js" url="file:///C:/wamp64/www/portfolio/packages/vilbur/portfolio/publish/resources/assets/js/">
 </livefolder>
-<livefolder id="e46371a6-3acb-452d-8a34-68b305c4f5c8" idref="7acbd179-88cf-4f67-a535-41cbc72b46b2" name="js" url="../../../resources/assets/js/">
+<livefolder id="09dc6da1-3538-452b-affd-83e9bb3ad865" idref="298a41a1-42d2-4e38-858f-ad6df9fb7ef6" name="js" url="../../../resources/assets/js/">
 </livefolder>
-<folder id="2d309246-b7dc-452d-8649-e27a381655af" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name=" Laravel">
+<livefolder id="75594f47-f545-4abe-bbfe-7ff18b1e6316" idref="298a41a1-42d2-4e38-858f-ad6df9fb7ef6" name="sass" url="../../../resources/assets/sass/">
+</livefolder>
+<folder id="3ae86ddb-0780-4727-b985-f4c3caffce3f" idref="cc7c8090-59e6-4bff-9ac2-eeb4ae058aba" name="ASSETS">
 </folder>
-<folder id="3624417b-bee4-48ad-b9f9-cca2cd9e8ca9" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name="App\Resources">
+<livefolder id="3e3a5ebe-3334-4d7d-9559-7fc833c31861" idref="cc7c8090-59e6-4bff-9ac2-eeb4ae058aba" name="src" url="src">
+</livefolder>
+<livefolder id="7fc2322e-ec1f-4fa5-88c4-9e03950e65ea" idref="cc7c8090-59e6-4bff-9ac2-eeb4ae058aba" name="tests" url="tests">
+</livefolder>
+<livefolder id="90f927d7-b40e-4c06-a19a-1cbf74b54c69" idref="cc7c8090-59e6-4bff-9ac2-eeb4ae058aba" name="publish" url="publish">
+</livefolder>
+<folder id="fe59b1cd-438c-492b-acb9-bdfaea6fad51" idref="cc7c8090-59e6-4bff-9ac2-eeb4ae058aba" name=" LARAVEL">
 </folder>
-<livefolder id="83421a58-3340-4751-ac3e-015f20314089" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name="src" url="src">
-</livefolder>
-<livefolder id="c6c617df-f6cc-408e-b357-4f1ddd9af432" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name="publish" url="publish">
-</livefolder>
-<livefolder id="07bdfb32-6eeb-46fd-ae02-ad0cf5f356d3" idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" name="tests" url="tests">
-</livefolder>
-<preference-set idref="bf31e542-9a53-410b-a6ca-a5bc1be3cd47" id="project" preftype="project">
+<preference-set idref="cc7c8090-59e6-4bff-9ac2-eeb4ae058aba" id="project" preftype="project">
   <long id="prefs_version">1</long>
 <preference-set id="testPlans">
-<preference-set id="pack-dev-template - test plan # 1">
+<preference-set id="pack-portfolio - test plan # 1">
   <string id="command_line"></string>
-  <string relative="url" id="directory"></string>
+  <string id="directory">file:///C:/wamp64/www/portfolio/packages/vilbur/portfolio/</string>
   <string id="language">PHP - PHPUnit</string>
 </preference-set>
-<preference-set id="pack-dev-template - test plan # 2">
+<preference-set id="pack-portfolio - test plan # 2">
   <string id="command_line"></string>
-  <string relative="url" id="directory">tests</string>
+  <string id="directory">file:///C:/wamp64/www/portfolio/packages/vilbur/portfolio/tests</string>
   <string id="language">PHP - PHPUnit</string>
 </preference-set>
 </preference-set>
