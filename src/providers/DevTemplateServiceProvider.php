@@ -27,7 +27,7 @@ class DevTemplateServiceProvider extends ServiceProvider
 			/* ASSETS SASS */
 			__DIR__.'/../../publish/resources/assets/sass'	=> resource_path("assets/sass/dev-template"),
 
-		], 'DevTemplate');
+		], 'dev-template');
 
     }
 
@@ -46,10 +46,10 @@ class DevTemplateServiceProvider extends ServiceProvider
 		$this->loadRoutesFrom(	__DIR__.'/../routes/routes.php');
 
 		/* VIEWS */
-		$this->loadViewsFrom(	__DIR__.'/../../publish/views', 'DevTemplate');
+		$this->loadViewsFrom(	__DIR__.'/../../publish/views', 'dev-template');
 
 		/* CONFIG */
-		$this->mergeConfigFrom(	__DIR__.'/../../publish/config/DevTemplate.php', 'DevTemplate');
+		$this->mergeConfigFrom(	__DIR__.'/../../publish/config/DevTemplate.php', 'dev-template');
 
 		/* FACTORIES */
 	    $this->registerEloquentFactoriesFrom(__DIR__.'/../database/factories');
