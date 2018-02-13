@@ -33,7 +33,7 @@ Add to __application\composer.json__.
 }
 ```
 
-### Install package locally
+### Install package
 ``` bash
 composer require vilbur/dev-template @dev
 ```
