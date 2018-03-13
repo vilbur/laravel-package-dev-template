@@ -12,6 +12,18 @@ class DevTemplateServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+		/* ROUTES */
+		$this->loadRoutesFrom(	__DIR__.'/../routes/routes.php');
+
+		/* VIEWS */
+		$this->loadViewsFrom(	__DIR__.'/../../publish/views', 'DevTemplate');
+
+		/* CONFIG */
+		$this->mergeConfigFrom(	__DIR__.'/../../publish/config/DevTemplate.php', 'DevTemplate');
+
+		/* FACTORIES */
+	    $this->registerEloquentFactoriesFrom(__DIR__.'/../database/factories');
+
 		/* PUBLISH */
 		$this->publishes([
 
@@ -36,23 +48,11 @@ class DevTemplateServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function register(){
-
+    public function register()
+	{
         $this->app->bind('DevTemplate', function(){
             return new \Vilbur\DevTemplate\DevTemplate;
         });
-
-		/* ROUTES */
-		$this->loadRoutesFrom(	__DIR__.'/../routes/routes.php');
-
-		/* VIEWS */
-		$this->loadViewsFrom(	__DIR__.'/../../publish/views', 'dev-template');
-
-		/* CONFIG */
-		$this->mergeConfigFrom(	__DIR__.'/../../publish/config/DevTemplate.php', 'dev-template');
-
-		/* FACTORIES */
-	    $this->registerEloquentFactoriesFrom(__DIR__.'/../database/factories');
     }
     /**
      * Register factories.
