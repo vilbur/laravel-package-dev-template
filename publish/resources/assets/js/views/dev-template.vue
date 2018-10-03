@@ -25,7 +25,7 @@
 			};
 		},
 		created(){
-			axios.get('/api/dev-template').then( response => this.models = response.data );
+			axios.get('/db/dev-template').then( response => this.models = response.data );
 		},
 		mounted(){
 
