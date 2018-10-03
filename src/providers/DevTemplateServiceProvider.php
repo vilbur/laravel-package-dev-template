@@ -39,7 +39,7 @@ class DevTemplateServiceProvider extends ServiceProvider
 			/* ASSETS SASS */
 			__DIR__.'/../../publish/resources/assets/sass'	=> resource_path("assets/sass/dev-template"),
 
-		], 'dev-template');
+		], 'vilbur/dev-template');
 
     }
 
