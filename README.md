@@ -30,7 +30,7 @@ Run __ContentAndPathReplacer.exe__ and replace "dev-template" with your package 
 
 __A)__ Run command bellow in __Bash__ *(cmd.exe doesn't work)*.  
 
-	composer config repositories.{package-name} '{"type":"path","url":"packages/{package-name}"' --file composer.json  
+	composer config repositories.{package-name} '{"type":"path","url":"packages/{package-name"}' --file composer.json  
 
 
 __B)__ Or add mannualy to __application\composer.json__.  
