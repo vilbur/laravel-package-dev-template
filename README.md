@@ -9,8 +9,7 @@ Ready for development and installation.
 
 
 ### Create directory for package  
-    Laravel\\packages\\__dev-template__  
-
+[Laravel\\packages\\__dev-template__](https://github.com/vilbur/laravel-fresh/tree/master/packages)  
 
 ### Checkout repository  
 Browse to created directory and run command bellow  
